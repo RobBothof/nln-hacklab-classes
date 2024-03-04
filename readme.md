@@ -36,19 +36,19 @@ https://github.com/adafruit/Adafruit_Learning_System_Guides/tree/main/CircuitPyt
 
 ## Libraries
 
-Adafruit library bundle
+Adafruit library bundle<br>
 https://github.com/adafruit/Adafruit_CircuitPython_Bundle
 
-Community library bundle
+Community library bundle<br>
 https://github.com/adafruit/CircuitPython_Community_Bundle/tree/main
 
-Air quality sensor (used for datalogger lessons)
+Air quality sensor (used for datalogger lessons)<br>
 https://github.com/adafruit/Adafruit_CircuitPython_SCD4X
 
 ## Shops for electronic parts
 
-https://www.kiwi-electronics.com/
-https://www.tinytronics.nl/
-https://www.bitsandparts.nl/
-https://www.conrad.nl/
-https://www.reichelt.nl/
+https://www.kiwi-electronics.com/<br>
+https://www.tinytronics.nl/<br>
+https://www.bitsandparts.nl/<br>
+https://www.conrad.nl/<br>
+https://www.reichelt.nl/<br>
