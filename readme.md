@@ -15,10 +15,11 @@ https://circuitpython.org/board/raspberry_pi_pico/
 Optionally install the nuke.utf2 file to clean a used pico
 https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/circuitpython
 
-Thonny code editor
+### Thonny code editor
 https://thonny.org/
 
-Setup Thonny for circuitpython: Choose 'Tools' - 'Options' - 'Interpreter' : Choose circuit python
+Setup Thonny for circuitpython:<br>
+In Thonny's menu choose 'Tools' - 'Options' - 'Interpreter' : Choose circuit python
 
 ## Circuitpython main documentation
 
