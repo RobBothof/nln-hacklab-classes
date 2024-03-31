@@ -7,8 +7,8 @@ import time
 led = digitalio.DigitalInOut(board.GP25)
 led.direction=digitalio.Direction.OUTPUT
 
-# Configure to use pin GP01 as an input.
-button = digitalio.DigitalInOut(board.GP0)
+# Configure to use pin GP15 as a digital input.
+button = digitalio.DigitalInOut(board.GP15)
 button.direction=digitalio.Direction.INPUT
 button.pull = digitalio.Pull.UP
 
