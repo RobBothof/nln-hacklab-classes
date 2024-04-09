@@ -2,26 +2,27 @@
 
 ## audio
 
-99% of SoftwareSynths and DAW's
+99% of SoftwareSynths and DAW's<br>
 Ableton Live, Fruity Loops, etc
 
-PureData (open source node based visual audio programming)
-
+PureData (open source node based visual audio programming)<br>
 https://puredata.info/
 
-Max/MSP (commercial version of Pd)
+Max/MSP (commercial version of Pd)<br>
+https://cycling74.com/products/max
 
 ## video / vj
 
-Resolume
+Resolume<br>
+https://www.resolume.com/
 
-VDMX
+VDMX<br>
 
-Modul8
+Modul8<br>
 
-MadMapper
+MadMapper<br>
 
-Touchdesigner
+Touchdesigner<br>
 
 OpenRndr
 
