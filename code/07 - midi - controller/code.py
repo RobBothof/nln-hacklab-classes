@@ -6,10 +6,16 @@ import adafruit_midi
 import math
 import board
 
-# import auxiliar libraries
+# Import auxiliar libraries
 from adafruit_midi.note_on import NoteOn
 from adafruit_midi.note_off import NoteOff
 from adafruit_midi.control_change import ControlChange
+
+# Configure LED
+
+led1 = digitalio.DigitalInOut(board.GP25)
+led1.direction = digitalio.Direction.OUTPUT
+led1.value=0
 
 # Configure buttons and potentiometers
 
@@ -74,6 +80,9 @@ while True:
         # Update the previous values for buttons
         button1_previous = button1_current
         button2_previous = button2_current
+        
+        # Turn led on to indicate midi is being sent
+        led1.value=1
 
     # If any potentiometer has changed
     if (pot1_current != pot1_previous) or (pot2_current != pot2_previous) or (pot3_current != pot3_previous):
@@ -87,6 +96,13 @@ while True:
         pot2_previous = pot2_current
         pot3_previous = pot3_current
 
+        # Turn led on to indicate midi is being sent
+        led1.value=1
+
     # Pause for 1/33th of a second
     time.sleep(0.03)
+    
+    #Turn led off again
+    led1.value=0
+
 
