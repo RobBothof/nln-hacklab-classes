@@ -1,4 +1,3 @@
-
 import digitalio
 import analogio
 import time
@@ -21,7 +20,7 @@ button1.pull = digitalio.Pull.UP
 button1_previous = button1.value
 
 # Button 2
-button2 = digitalio.DigitalInOut(board.GP12)
+button2 = digitalio.DigitalInOut(board.GP14)
 button2.direction = digitalio.Direction.INPUT
 button2.pull = digitalio.Pull.UP
 button2_previous = button2.value
@@ -86,11 +85,8 @@ while True:
         # Update the previous values for potentiometers
         pot1_previous = pot1_current
         pot2_previous = pot2_current
-        # Pause for 1/100th of a second
-
-        pot1_previous = pot1_current
-        pot2_previous = pot2_current
         pot3_previous = pot3_current
 
-    # Pause for 1/100th of a second
-    time.sleep(0.05)
+    # Pause for 1/33th of a second
+    time.sleep(0.03)
+
